@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		loader.load("pirate_ship.glb", (model1) => {
 			anchor_go.group.add(model1.scene);
-			model1.scene.scale.set(0.1, 0.1, 0.1);
+			model1.scene.scale.set(0.01, 0.01, 0.01);
 			model1.scene.position.set(0, 0, 0);
 			model1.scene.userData.clickable = true;
 			model_ship = model1;
